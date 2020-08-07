@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>my second task in compiler team</title>
+    <style>
+        body {
+            background: #6E6E6E;
+        }
+
+        div {
+            background: #CECEF6;
+            margin: 20px;
+            padding: 30px;
+        }
+
+        blockquote {
+            background: #2EFE9A;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        table {
+            background: #FFFFFF;
+        }
+
+        .thead1 {
+            text-align: center;
+            background: #08088A;
+            color: #FFFFFF;
+            border: 5px solid #FF0000;
+        }
+
+        .tbody1 {
+            text-align: center;
+            background: #0000FF;
+            border: 5px solid #FFFF00;
+        }
+
+        .tfoot1 {
+            text-align: center;
+            background: #8181F7;
+            border: 2px solid #00FFFF;
+        }
+
+        .thead2 {
+            text-align: center;
+            background: #F2F5A9;
+            border: 2px solid #FF0000;
+        }
+
+        .tfoot2 {
+            text-align: center;
+            background: #BFFF00;
+            border: 2px solid #00FFFF;
+        }
+
+        caption {
+            color: #FF0040;
+            font-size: 28px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .span1 {
+            color: #FF0040;
+            font-size: 50px
+        }
+
+        .span2 {
+            color: #FE9A2E;
+            font-size: 20px
+        }
+
+        .span3 {
+            color: #4C0B5F;
+            font-size: 40px
+        }
+
+        .span4 {
+            color: #ACFA58;
+            font-size: 30px
+        }
+
+        .span5 {
+            color: #F7FE2E;
+            font-size: 20px
+        }
+
+        .span6 {
+            color: #000000;
+            font-size: 30px
+        }
+
+        .span7 {
+            color: #04B404;
+            font-size: 40px
+        }
+
+        .span8 {
+            color: #4000FF;
+            font-size: 20px
+        }
+
+        label {
+            display:block;
+        }
+
+        fieldset {
+            background: #FFFFFF;
+            border: 1px;
+            padding: 10px;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 30px;
+            width: 900px;
+        }
+
+        legend {
+            background: #81BEF7;
+            padding: 10px;
+            border: 2px solid #0000FF;
+        }
+
+        label {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            display: block;
+            font-size: 20px
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 7px;
+            width: 200px;
+            display: block
+        }
+
+        hr {
+            border: 2px solid #EEE
+        }
+
+        textarea {
+            padding: 10px;
+            width: 400px;
+            height: 200px;
+        }
+
+        iframe {
+            width: 800px;
+            height: 800px;
+            border: 5px solid #FFFF00;
+            margin: 20px;
+        }
+
+        .p1 {
+            color: #000000;
+            font-size: 30px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- this div shows how to put a quote -->
+    <div>
+        <h1 style="text-align:center"> quote about technology</h1>
+        <blockquote>
+            Nowadays technology has brought a lot of changes to our life, especially in education and communication.
+            In communication, the major changes happen in the way we communicate with other people. We do not need to meet them
+            in person or face to face to say what is in our mind. <mark>We simply can phone them or do video chat using Internet connection.</mark>
+            In the past.
+            <br>
+            <q>
+                we spent a long time to travel to a distant place, but now we just need hours or even minutes to go there
+                using the latest technology in a form of transportation means.
+            </q>
+        </blockquote>
+        <blockquote>
+            In education, the changes have brought advantages tostudents and teachers.<del>
+                For instance, students can do their
+                homework or assignment faster
+            </del> <ins>because using Internet.</ins> The teachers also get some advantages from it. They can combine
+            their teaching skill with it and produce some interesting materials to teach like colorful slides to deliver the
+            lesson and animation to show how things happen. In conclusion, technology itself has given us advantages to improve
+            our life’s quality.
+            <br>
+            (2<sup>nd</sup> of may 1955) p.<sub>76</sub>
+        </blockquote>
+    </div>
+    <!-- this div shows how to make a table -->
+    <div>
+        <table border:2px ; width="1000px">
+            <!-- table with boder and colors -->
+            <caption>students grades for 2020</caption>
+            <thead class="thead1">
+                <tr>
+                    <td>name</td>
+                    <td>math2</td>
+                    <td>network</td>
+                    <td>programming</td>
+                    <td>IS</td>
+                </tr>
+            </thead>
+            <tbody class="tbody1">
+                <tr>
+                    <td>Ahmed</td>
+                    <td>56</td>
+                    <td>87</td>
+                    <td>78</td>
+                    <td>68</td>
+                </tr>
+            </tbody>
+            <tfoot class="tfoot1">
+                <tr>
+                    <td>Mohammed</td>
+                    <td>89</td>
+                    <td>78</td>
+                    <td>90</td>
+                    <td>89</td>
+                </tr>
+            </tfoot>
+        </table>
+        <table border:2px ; width="1000px">
+            <!-- merage cells -->
+            <caption>programming languages</caption>
+            <thead class="thead2">
+                <tr>
+                    <td colspan="2">low-level languages</td>
+                    <td colspan="3">high-level languages</td>
+                </tr>
+            </thead>
+            <tfoot class="tfoot2">
+                <tr>
+                    <td>machin language</td>
+                    <td>assembly language</td>
+                    <td>c</td>
+                    <td>c++</td>
+                    <td>java</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <!-- Control color and font size -->
+        <p>
+            <span class="span1">c</span>
+            <span class="span2">o</span>
+            <span class="span3">m</span>
+            <span class="span4">p</span>
+            <span class="span5">i</span>
+            <span class="span6">l</span>
+            <span class="span7">e</span>
+            <span class="span8">r</span>
+        </p>
+            <form style="background:#E6E6E6">
+                <!-- make a simple form -->
+                <br>
+                <br>
+                <fieldset>
+                    <legend>your information</legend>
+                    <label>User name</label>
+                    <input type="text">
+                    <label>Password</label>
+                    <input type="password">
+                    <label>E-mail</label>
+                    <input type="text">
+                    <label>Remember me</label>
+                    <input type="checkbox">
+                </fieldset>
+                <fieldset>
+                    <legend>other info</legend>
+                    <label>Gender</label>
+                    <input type="radio" name="Gender">Male<br>
+                    <input type="radio" name="Gender">Female
+                    <hr>
+                    <label>browser</label>
+                    <input type="radio" name="1">safari<br>
+                    <input type="radio" name="2">google chrome<br>
+                    <input type="radio" name="3">firefox<br>
+                    <hr>
+                    <label>upload your file</label>
+                    <input type="file">
+                    <hr>
+                    <label>your opinion about us</label>
+                    <textarea></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>deal with info</legend>
+                    <select>
+                        <option disabled>now</option>
+                        <option>tomorrow</option>
+                        <option>after a week</option>
+                    </select>
+                    <input type="submit" value="send info">
+                    <input type="reset" value="reset all info">
+                </fieldset>
+                <br>
+                <br>
+            </form>
+    </div>
+    <div>
+        <!-- Share a site within the page -->
+        <iframe name="yallakora" src="https://www.yallakora.com/"></iframe>
+    </div>
+    <div>
+        <!-- how to write a div code -->
+        <p class="p1">write a div code</p>
+        &lt;div class="div_1"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this is a div1<br>
+        &lt;div&gt;
+    </div>
+    <div>
+        <!-- how to write copyright -->
+        <h1>Copyright&copy;For compiler team</h1>
+    </div>
+
+
+</body>
+</html>
