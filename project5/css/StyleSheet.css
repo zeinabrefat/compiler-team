@@ -1,0 +1,215 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+}
+
+* {
+    transition: 1s ease-in-out all;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.div1 {
+    background: #7674f5;
+    padding: 1px;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+}
+
+.div1 ul
+{
+    list-style:none;
+    margin:0px;
+    padding:0;
+}
+
+.div1 ul li 
+{
+    display: inline-block;
+    margin:15px 5px 10px;
+    padding:10px;
+    font-size:20px;
+}
+
+.facebook, .twitter, .instagram, .youtube
+{
+    float: right;
+}
+
+a 
+{
+    color: #ffffff;
+}
+.facebook:hover, .twitter:hover, .instagram:hover, .youtube:hover
+{
+    background:rgba(255, 255, 255, 0.41);
+}
+
+.Home 
+{
+    background: #4a47e8;
+    color: #ffffff;
+}
+
+.div2 {
+    width: 20px;
+    position: fixed;
+    z-index: 2;
+}
+
+.about, .news, .contact, .projects {
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: -80px;
+    width: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about:hover, .news:hover, .contact:hover, .projects:hover 
+{
+        margin-left: 0px;
+}
+
+.about 
+{
+        background: #1917c2;
+}
+
+.news
+{
+    background:#4c4ac6;
+}
+
+.contact
+{
+    background:#7978c6;
+}
+
+.projects
+{
+    background:#b0b0c8;
+}
+
+.div3
+{
+    margin:100px 40px 0px;
+    color:#000;
+    z-index:1;
+}
+
+dt {
+    background: #0012e0;
+    color: #fff;
+    height: 30px;
+    top: 72px;
+    padding: 10px 10px 0px;
+    position: sticky;
+}
+
+dd
+{
+    line-height: 30px;
+}
+
+.div4 {
+    background: url(../images/5.jpg) no-repeat fixed;
+    padding: 70px;
+    margin: 50px 0 50px 0;
+    height: auto;
+}
+
+.div4a 
+{
+    background: #f1f1f1;
+    max-height: 50px;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.div4a:hover
+{
+    max-height: 150px;
+}
+
+.div4:hover:after {
+    content: "Initially, the band developed their musical style to encompass a wide range of musical genres";
+    background:rgba(55, 52, 255, 0.57);
+    padding: 10px;
+    height: 100px;
+}
+
+.div5 {
+    background: url(../images/6.jpeg) fixed;
+    padding: 70px;
+    margin: 50px 0 50px 0;
+    height: auto;
+}
+
+.div5a
+{
+    background:rgba(255, 0, 0, 0.54);
+    padding: 30px;
+    margin: 10px;
+}
+
+.child
+{
+    background:#030f6d;
+    color:#fff;
+    padding:10px;
+}
+
+div~p
+{
+    background: #335de9;
+    color: #fff;
+    padding: 10px;
+}
+
+.div5a p:hover ~p
+{
+    background:#ffffff;
+    color:blue;
+}
+
+.div6 {
+    background: url(../images/6.jpeg) no-repeat fixed;
+    padding: 20px;
+    margin: 40px 40px 40px 100px;
+    height: 300px;
+}
+
+.div6a
+{
+    background:#4c4ac6;
+    margin:110px 100px;
+    padding:10px;
+    font-size:20px;
+}
+
+.div6a:first-line
+{
+    background:#ffffff;
+}
+
+.div6a:first-letter 
+{
+    background: #8f0909;
+    font-size:40px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+.div7 {
+    text-align: center;
+    background: #7674f5;
+    font-size: 20px;
+    padding: 10px 0;
+}
