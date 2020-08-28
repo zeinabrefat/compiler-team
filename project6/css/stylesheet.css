@@ -1,0 +1,272 @@
+body
+{
+    margin:0;
+	padding:0;
+}
+
+* 
+{
+    font-family: 'Comic Sans MS' ;
+    transition: 1s ease-in-out all;
+}
+
+.div1 {
+    background: #ffe200;
+    width: 100%;
+    top: 0;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    text-align: center;
+}
+
+span 
+{
+    font-family:'Times New Roman';
+    font-size: 40px;
+    padding: 0px 0px ;
+}
+
+.s {
+    color: #1C1C1C;
+}
+
+.m {
+    color: #2E2E2E;
+}
+
+.A {
+    color: #424242;
+}
+
+.r {
+    color: #585858;
+}
+
+.t {
+    color: #6E6E6E;
+}
+
+.s {
+    color: #848484;
+}
+
+.h {
+    color: #A4A4A4;
+}
+
+.o {
+    color: #BDBDBD;
+}
+
+.p {
+    color: #D8D8D8;
+}
+.media {
+    margin-top: 60px;
+    background: #ffe200;
+    width:100%;
+    padding:5px;
+    text-align:center;
+}
+
+.media ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.media ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    }
+
+.media ul li a
+{
+    color:#000000;
+}
+
+.media ul li:hover
+{
+    background:rgba(255, 255, 255, 0.40);
+}
+
+
+.div2 a:hover 
+{
+    background: #f8efa2;
+}
+
+
+.div2 
+{
+    margin-top:30px;
+    position: fixed;
+    z-index: 2;
+}
+
+.About, .products, .Best, .prizes, .Order 
+{
+    display: block;
+    text-decoration: none;
+    margin: 1px 0px 0px -130px;
+    padding: 10px;
+    border-radius: 5px;
+    width:150px
+}
+
+.About:hover, .products:hover, .Best:hover, .prizes:hover, .Order:hover
+{
+    margin-left:0px;
+}
+
+.About
+{
+    background:#fee417;
+}
+.products
+{
+    background:#fbe42b;
+}
+.Best
+{
+    background:#fce73b;
+}
+.prizes
+{
+    background:#fbeb64;
+}
+.Order 
+{
+    background:#fcef7e;
+}
+
+.div3,.div4,.div5,.div6,.div
+{
+    margin-left:50px;
+}
+
+.a,.b,.c,.d,.e
+{
+    font-size:13px;
+    display:inline-block;
+}
+
+p
+{
+    visibility:hidden;
+}
+
+.a:hover p, .b:hover p, .c:hover p, .d:hover p, .e:hover p 
+{
+    visibility: visible;
+}
+
+.img
+{
+    width:230px;
+}
+
+.images
+{
+    width:250px;
+}
+
+.head
+{
+    width:150px;
+    margin-right:100px;
+}
+
+.caption 
+{
+    font-size: 25px;
+    color: #FE9A2E;
+}
+
+.table 
+{
+    width: 1210px;
+    background: #FFFF00;
+    border: 5px solid #0B3B24;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.thead 
+{
+    text-align: center;
+    background: #0B3B24;
+    color: #FFFFFF;
+    border: 5px solid #FF0000;
+}
+
+.tbody 
+{
+    text-align: center;
+    background: #0B3B24;
+    color: #FFFFFF;
+    border: 5px solid #FF0000;
+}
+
+form 
+{
+    background: #CEF6CE;
+    padding: 10px;
+    margin: 0px 20px 30px;
+    width: 1190px;
+}
+
+fieldset 
+{
+    background: #F5ECCE;
+    border: 1px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 915px;
+}
+
+legend 
+{
+    font-size: 25px;
+    color: #0B3B24;
+    background: #FFFFFF;
+    border: 2px solid #A4A4A4;
+    padding: 10px;
+}
+
+label
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    color: #04B486;
+}
+
+input[type="text"] 
+{
+    padding: 10px;
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"], input[type="reset"] ,select
+{
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+    width: 150px;
+    background: #CEF6CE;
+}
+
+.div7
+{
+    text-align: center;
+    background: #ffe200;
+    font-size: 20px;
+    padding: 10px 0;
+}
