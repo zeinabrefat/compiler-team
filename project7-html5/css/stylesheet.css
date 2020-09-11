@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    transition: 1s ease-in-out all;
+    font-family:'Comic Sans MS';
+}
+
+header {
+    background: rgb(68, 4, 38);
+    padding: 1px;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+}
+
+header ul 
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+header ul li
+{
+    display: inline-block;
+    margin: 10px 5px 10px;
+    padding: 10px;
+    font-size: 20px;
+    }
+
+.facebook, .twitter, .instagram, .youtube 
+{
+    float: right;
+}
+
+a {
+    color: #ffffff;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover, .youtube:hover 
+{
+    background: rgba(255, 255, 255, 0.41);
+}
+
+.Home 
+{
+    background:rgb(217, 112, 167);
+    color: #ffffff;
+}
+
+div
+{
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+}
+
+.about, .news, .contact, .projects
+{
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: -80px;
+    width: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size:17px;
+}
+
+.about:hover, .news:hover, .contact:hover, .projects:hover 
+{
+    margin-left: 0px;
+}
+
+.about 
+{
+    background:#8b356d;
+}
+
+.news 
+{
+    background: #a1367b;
+}
+
+.contact 
+{
+    background: #ca5090;
+}
+
+.projects 
+{
+    background: #d5a3bd;
+}
+
+.art1
+{
+    background-image:url(../images/5.jpg);
+    padding:30px;
+    margin-top:100px;
+    background-attachment:fixed;
+}
+.sec1
+{
+    background:rgba(255, 0, 133, 0.65);
+    margin:10px;
+    padding:20px;
+}
+.det1
+{
+    margin:10px;
+    padding:10px;
+}
+.summary
+{
+    background:rgba(216, 43, 133, 0.90);
+    padding:10px;
+    margin:10px;
+}
+.p1
+{
+    background:rgba(207, 89, 150, 0.65);
+    padding:10px;
+}
+.art2 {
+    background-image: url(../images/6.jpeg);
+    padding: 30px;
+    margin:30px 0;
+    background-attachment:fixed;
+}
+.sec2 {
+    background: rgba(255, 0, 133, 0.65);
+    margin: 20px;
+    padding: 20px;
+}
+#browser
+{
+    margin:10px;
+    padding:10px;
+    width:97%;
+    height:30px;
+    background:rgba(65, 4, 36, 0.50);
+    color:#ffffff;
+}
+.art3 {
+    background-image: url(../images/5.jpg);
+    padding: 30px;
+    margin-bottom:30px;
+    background-attachment:fixed;
+}
+.sec3
+{
+    background: rgba(255, 0, 133, 0.65);
+    margin: 20px;
+    padding: 20px;
+}
+footer 
+{
+    text-align: center;
+    background: rgb(68, 4, 38);
+    font-size: 20px;
+    padding: 10px 0;
+    color:white;
+}
