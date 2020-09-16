@@ -159,6 +159,14 @@ div
     margin: 20px;
     padding: 20px;
 }
+.progress1 ,.progress2
+{
+    display:block;
+}
+.meter1, .meter2, .meter3
+{
+    display: block;
+}
 footer 
 {
     text-align: center;
