@@ -1,0 +1,254 @@
+﻿body 
+{
+    padding: 0;
+    margin: 0;
+}
+
+* 
+{
+    font-family: 'Comic Sans MS';
+    transition: 1s ease-in-out all;
+}
+
+header 
+{
+    background: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+    top: 0;
+}
+
+header ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li 
+{
+    display: inline-block;
+    margin: 10px 5px 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li a 
+{
+    color: white;
+}
+
+.search 
+{
+    margin-top: 15px;
+    float: right;
+}
+
+input[type="search"]:hover 
+{
+    background: #2f2f2f;
+}
+
+input[type="search"] 
+{
+    width: 100%;
+    height: 30px;
+}
+
+.home 
+{
+    font-size: 30px;
+}
+
+.home:hover 
+{
+    background: rgba(255, 106, 0, 0.80)
+}
+
+li form, li a 
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.big 
+{
+    position: fixed;
+    z-index: 2;
+    top: 100px;
+}
+
+.big ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.about, .news, .contact
+{
+    padding: 10px;
+    margin-left: -144px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.about:hover, .news:hover, .contact:hover 
+{
+    margin-left: 0;
+}
+
+.about 
+{
+    background:rgba(255, 0, 70, 0.75)
+}
+
+.news
+{
+    background:rgba(250, 58, 111, 0.75)
+}
+
+.contact 
+{
+    background: rgba(250, 143, 172, 0.75)
+}
+
+.a
+{
+    margin-top:200px;
+}
+
+.div1
+{
+    background-image:url(../images/1.jpg);
+    background-attachment:fixed;
+    margin-top:250px;
+    margin-bottom:50px;
+    padding:30px;
+}
+
+p
+{
+    background: rgba(255, 0, 70, 0.70);
+    white-space: nowrap;
+    margin: 10px 10px 40px;
+    padding: 20px;
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: horizontal;
+    text-shadow: 2px 7px 3px #400;
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+
+.div1a 
+{
+    background: rgba(255, 0, 70, 0.70);
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+    overflow: hidden;
+    resize: horizontal;
+    white-space: nowrap;
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+
+.div1a1 
+{
+    background: #808080;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.div
+{
+    background:rgb(255, 106, 0);
+    text-align:center;
+    width:10%;
+    margin:5px;
+    padding:10px;
+    display:inline-block;
+}
+
+.div2 {
+    background-image: url(../images/2.jpg);
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    padding: 30px;
+    perspective: 1000px;
+}
+
+.card1
+{
+    width: 700px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    transform-style: preserve-3d;
+    margin-left: 22%;
+}
+
+.card1:hover
+{
+    transform:rotateY(180deg)
+}
+
+.card1 > div
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    text-align:center;
+    border:2px solid #9a9797;
+    border-radius:3px;
+}
+
+.card1 .front1
+{
+    z-index:2;
+    backface-visibility:hidden;
+}
+
+.if {
+    width: 700px;
+    height: 350px;
+}
+
+.card1 .back1
+{
+    z-index: 1;
+    background:#808080;
+    line-height:30px;
+    transform:rotateY(180deg)
+}
+
+.div3 
+{
+    background: url(../images/4.jpg) fixed;
+    height: 500px;
+    padding: 60px;
+}
+
+.opacity
+{
+    opacity:0;
+}
+
+.div3:hover .opacity
+{
+    opacity:1;
+    transform:scale(1.5,1.5) translate(200px , 80px)
+}
+
+footer 
+{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.65);
+    font-size: 20px;
+    margin-top:20px;
+    padding: 10px 0;
+    color: white;
+}
