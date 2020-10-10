@@ -126,6 +126,7 @@ li form, li a
     margin-top:250px;
     margin-bottom:50px;
     padding:30px;
+    overflow:hidden;
 }
 
 p
@@ -241,6 +242,31 @@ p
 {
     opacity:1;
     transform:scale(1.5,1.5) translate(200px , 80px)
+}
+
+.div4 
+{
+    text-align: center;
+    margin-top: 20px;
+    background: url(../images/4.jpg) fixed;
+    padding: 50px 30px 30px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.div4 div
+{
+    padding:30px 10px 10px;
+    text-align:center;
+    width:1000px;
+    overflow:hidden;
+    resize:both;
+    column-count:3;
+    column-width:300px;
+    column-rule:3px double white;
+    column-gap:100px;
+    background:rgba(250, 143, 172, 0.75);
+    box-shadow: 5px 5px 20px #fff, -5px -5px 20px #fff;
 }
 
 footer 
