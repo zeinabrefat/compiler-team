@@ -1,0 +1,267 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/4.jpg) fixed;
+}
+
+* {
+    transition: 1s ease-in-out all;
+    font-family: 'Bookman Old Style';
+}
+
+header {
+    background: #08181f;
+    padding: 1px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+}
+
+header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+input[type="search"] {
+    outline: none;
+}
+
+.h:hover, .a:hover, .c:hover {
+    text-decoration-line: underline;
+    background: rgba(255, 255, 255, 0.30)
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.search, .c, .a {
+    float: right;
+}
+
+.toggle {
+    display: none;
+    margin-top: 10px;
+    width: 150px;
+    float: right;
+    position: relative;
+}
+
+header .switch {
+    position: relative;
+    background: #c5c5c5;
+    margin: 5px 20px;
+    width: 67px;
+    float: right;
+    height: 38px;
+    border-radius: 36px
+}
+
+.switch .slider {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 36px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 38px;
+    width: 38px;
+    margin-left: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%
+}
+
+input[type="checkbox"] {
+    display: none
+}
+
+input:checked + .slider {
+    background-color: #002cff;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+input:checked ~ .minn {
+    display: block !important;
+    position: fixed;
+    right: 0;
+    background-color: rgba(8, 24, 31, 0.60);
+    top: 70px;
+    height: 109px;
+}
+
+@media(max-width:680px) {
+    .ul li:nth-child(n+2) {
+        display: none
+    }
+
+    .toggle {
+        display: block
+    }
+}
+
+.minn {
+    width: 230px;
+    height: 125px;
+    font-size: 20px;
+    background: #ccc;
+    top: 25px;
+    position: absolute;
+    right: -365px;
+    transition: top .3s ease-in-out;
+}
+
+.minn li {
+    list-style: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    width: 211px;
+}
+
+.minn li:hover {
+    background: #16455a;
+    color: #fff;
+    transition: all 1.5s ease-in-out;
+}
+
+.div1 {
+    margin-top: 80px;
+    height: auto;
+}
+
+.media {
+    width: 100%;
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    .media {
+        content: url(../images/2.jpeg)
+    }
+}
+
+@media (max-width:600px) {
+    .media {
+        content: url(../images/3.jpeg)
+    }
+}
+
+.div2 {
+    margin: 30px;
+    padding: 50px 20px;
+    background-image: url(../images/6.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.fan:hover {
+    animation: return .2s infinite
+}
+
+@keyframes return {
+    0% {
+        transform: rotate(0deg);
+        content: url(../images/fan1.png)
+    }
+
+    10% {
+        transform: rotate(36deg);
+        content: url(../images/fan1.png)
+    }
+
+    20% {
+        transform: rotate(72deg);
+        content: url(../images/fan2.png)
+    }
+
+    30% {
+        transform: rotate(108deg);
+        content: url(../images/fan2.png)
+    }
+
+    40% {
+        transform: rotate(144deg);
+        content: url(../images/fan3.png)
+    }
+
+    50% {
+        transform: rotate(180deg);
+        content: url(../images/fan3.png)
+    }
+
+    60% {
+        transform: rotate(216deg);
+        content: url(../images/fan4.png)
+    }
+
+    70% {
+        transform: rotate(252deg);
+        content: url(../images/fan4.png)
+    }
+
+    80% {
+        transform: rotate(288deg);
+        content: url(../images/fan5.png)
+    }
+
+    90% {
+        transform: rotate(324deg);
+        content: url(../images/fan5.png)
+    }
+
+    100% {
+        transform: rotate(360deg);
+        content: url(../images/fan1.png)
+    }
+}
+
+.div3 {
+    background: url(../images/6.jpeg) fixed no-repeat;
+    background-size: cover;
+    height: 40%;
+    margin: 30px;
+    padding: 100px;
+    text-align: center;
+    font-family: death;
+    font-size: 60px;
+    color: #004d6f;
+}
+
+@font-face {
+    font-family: 'death';
+    src: url(../font/Death_Note_Font_by_Karlibell22.ttf)
+}
+
+footer {
+    text-align: center;
+    background: #08181f;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: white;
+}
