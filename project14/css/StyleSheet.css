@@ -1,0 +1,151 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background: url(../images/9.jpg) fixed no-repeat;
+    background-size: cover;
+}
+*{
+    transition: 1s all ease-in-out
+}
+header {
+    margin-top:0;
+    background: #222121;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+    font-size:20px;
+    padding:20px;
+    transition: 1s all ease-in-out;
+}
+header ul li:hover {
+    background: rgba(156, 153, 153, 0.45)
+}
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+.contactus,.about {
+    float:right
+}
+.sum {
+    width: 40%;
+    text-align: center;
+    margin: 90px auto 20px;
+    padding: 30px;
+    background: rgba(181, 144, 144, 0.77);
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+.sum input {
+    margin:40px auto;
+    padding:15px 59px;
+    text-align:center;
+    display:block;
+    font-size:20px;
+    color:black;
+    background:white;
+    box-shadow: 10px 10px 10px #8921fe, -7px -7px 10px #fff;
+
+}
+.sum button {
+    padding:20px;
+    width:100px;
+    border-radius:30px 0;
+    background: linear-gradient(to top, #c48fff, #fff);
+}
+.prompt {
+    width: 40%;
+    text-align: center;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(181, 144, 144, 0.77);
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+.prompt button {
+    padding: 20px;
+    width: 150px;
+    border-radius: 20px 0;
+    background: linear-gradient(to top, #c48fff, #fff);
+}
+.prompt p {
+    text-align:center;
+    font-size:20px;
+}
+.time {
+    width: 40%;
+    text-align: center;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(181, 144, 144, 0.77);
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+.time button {
+    padding: 20px;
+    margin-bottom:20PX;
+    border-radius: 30px 0;
+    background: linear-gradient(to top, #c48fff, #fff);
+}
+.time input {
+    display:inline-block;
+    padding:10px;
+    width:20%;
+}
+.time p {
+    display:inline-block;
+    padding:10px;
+    transition:1s ease-in-out;
+}
+.arrray {
+    width: 40%;
+    text-align: center;
+    margin: 60px auto 30px;
+    padding: 30px;
+    background: rgba(181, 144, 144, 0.77);
+    font-size: 20px;
+    box-shadow: 10px 10px 20px #000, -10px -10px 20px #000;
+}
+.arrray input {
+    padding: 10px;
+    width: 20%;
+    margin-bottom:20px;
+}
+.arrray p {
+    padding: 10px;
+}
+.arrray button {
+    margin-top:20px;
+    padding: 15px 20px;
+    width: 150px;
+    border-radius: 20px 0;
+    background: linear-gradient(to top, #c48fff, #fff);
+}
+#color {
+    width:50px;
+    height:18px;
+}
+@media(max-width:900px) {
+    .sum,.prompt,.time,.arrray {
+        width:80%;
+
+    }
+}
+@media(max-width:900px){
+    .sum input {
+        padding: 15px 90px;
+    }
+}
+footer {
+    text-align: center;
+    background: #222121;
+    font-size: 20px;
+    padding: 10px 0;
+    color: white;
+}
