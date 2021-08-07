@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Flights-con</title>
-    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="css/StyleSheet.css" type="text/css" />
 </head>
 <body class="no">
     <div class="ticket" id="tick">
